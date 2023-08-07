@@ -26,5 +26,5 @@ class Solution:
                     elif total > 0:                                     #if total is greater than 0, we need to decrease the right pointer
                         right -= 1                                      #move right pointer
                     else:                                               #if total is less than 0, we need to increase the left pointer
-                        left += 1                                       #move left pointer
+                        left += 1                                       #move left pointer till
         return res
