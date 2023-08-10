@@ -13,6 +13,6 @@ class Solution:
             if price < min_price:                   # if price is less than min_price
                 min_price = price                   # set min_price to price
             elif price - min_price > max_profit:    # else if price - min_price is greater than max_profit
-                max_profit = price - min_price      # set max_profit to price - min_price
+                max_profit = price - min_price      # set max_profit to price - min_price   
                 
         return max_profit
