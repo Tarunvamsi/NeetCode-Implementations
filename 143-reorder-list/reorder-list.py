@@ -31,9 +31,4 @@ class Solution:
             first = temp1
             second = temp2
     
-    # Utility function to print the linked list
-    def printList(self, head):
-        while head:
-            print(head.val, end=" -> ")
-            head = head.next
-        print("None")
+    
