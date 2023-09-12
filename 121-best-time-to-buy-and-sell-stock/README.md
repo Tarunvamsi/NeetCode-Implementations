@@ -8,7 +8,7 @@
 <p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>Input:</strong> prices = [7,1,5,3,6,4]
+<strong>Input:</strong> prices = [7,1,5 ,3,6,4]
 <strong>Output:</strong> 5
 <strong>Explanation:</strong> Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
 Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
