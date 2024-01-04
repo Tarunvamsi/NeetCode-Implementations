@@ -1,14 +1,14 @@
 class Solution(object):
     def mergeAlternately(self, word1, word2):
-        res=[]
-        i=0
-        while i<len(word1) or i<len(word2):
-            if i<len(word1):
-                res.append(word1[i])
-            if i<len(word2):
-                res.append(word2[i])
-            i +=1
-        return ''.join(res)            
+        merged =[]
+        track=0
+        while track < len(word1) or track <len(word2):
+            if track < len(word1):
+                merged.append(word1[track])
+            if track < len(word2) :
+                merged.append(word2[track])
+            track +=1
+        return ''.join(merged)                 
 
 
         
