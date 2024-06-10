@@ -6,4 +6,7 @@ class Solution(object):
             return str1
         if str1[:len(str2)] != str2:
             return ""
-        return self.gcdOfStrings(str1[len(str2):],str2)            
+        return self.gcdOfStrings(str1[len(str2):],str2)     
+
+
+       
